@@ -1,35 +1,48 @@
-# House-Coasting-Prediction
+
 # Housing Cost Prediction Dataset
 
 This repository contains a CSV file with data related to housing costs. 
+# Housing Cost Prediction
 
-**Data Description:**
+## Overview
 
-* **[Column Name 1]:** [Data Type] - [Brief Description] 
-    * Example: `sqft_living` (float) - Square footage of the living area
-* **[Column Name 2]:** [Data Type] - [Brief Description] 
-    * Example: `bedrooms` (int) - Number of bedrooms
-* **[Column Name 3]:** [Data Type] - [Brief Description] 
-    * Example: `bathrooms` (float) - Number of bathrooms
-* **[Column Name 4]:** [Data Type] - [Brief Description] 
-    * Example: `zipcode` (int) - Zip code of the property
-* **[Column Name 5]:** [Data Type] - [Brief Description] 
-    * Example: `price` (float) - Sale price of the property (Target variable)
+This project aims to predict housing costs using a dataset of housing features. The model is trained on a dataset containing various attributes of houses and their corresponding prices. 
 
-**Data Source:**
+## Dataset
 
-* [Optional: Briefly describe the data source, e.g., "Collected from [source]," "Kaggle dataset," "Personal dataset"]
+The dataset used for this project is named `housing.csv`. This file includes the following features:
 
-**Usage:**
+* **CRIM:** per capita crime rate by town.
+* **ZN:** proportion of residential land zoned for lots over 25,000 sq.ft.
+* **INDUS:** proportion of non-retail business acres per town.
+* **CHAS:** Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).
+* **NOX:** nitric oxides concentration (parts per 10 million).
+* **RM:** average number of rooms per dwelling.
+* **AGE:** proportion of owner-occupied units built prior to 1940.
+* **DIS:** weighted distances to five Boston employment centers.
+* **RAD:** index of accessibility to radial highways.
+* **TAX:** full-value property-tax rate per $10,000.
+* **PTRATIO:** pupil-teacher ratio by town.
+* **B:** 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town.
+* **LSTAT:** % lower status of the population.
+* **MEDV:** Median value of owner-occupied homes in $1000's.
 
-This dataset can be used for various machine learning tasks, including:
 
-* **Regression:** Predict the housing price based on features like square footage, number of bedrooms, etc.
-* **Feature Engineering:** Explore and engineer new features from the existing data (e.g., create a new feature for "rooms" by combining bedrooms and bathrooms).
-* **Data Visualization:** Create visualizations to understand the relationships between features and the target variable (e.g., scatter plots, histograms).
+## Model
 
-**Getting Started:**
+A Linear Regression model was used to predict housing costs. You can find the model training code in the `Notebook.ipynb` file.
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository_url>
+## Results
+
+The model achieved the following performance metrics:
+
+* **Mean Squared Error (MSE):** [MSE value]
+* **R-squared (R2):** [R2 value]
+
+## Contributing
+
+Feel free to contribute to this project by opening issues or submitting pull requests.
+
+## License
+
+This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
